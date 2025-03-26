@@ -1,15 +1,28 @@
 body {
-    background-color: rgb(238, 255, 0);
+    display: flex;
+    justify-content: center;
 }
 
 .wrapper {
-    width: 100%;
-    background-color: aqua;
-    display: flex; justify-content: center;
+    width: 1200px;
+    background-color: #163A24;
+    display: flex;
+    justify-content: center;
+
 }
 
-.header {
-    width: 900px;
-    height: 200px;
-    background-color: chartreuse;
+.contener {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
