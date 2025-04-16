@@ -8,7 +8,7 @@ body {
     background-color: #163A24;
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
 }
 
 .contener {
@@ -23,6 +23,22 @@ header {
 }
 .actions{
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
+    width: 590px;
+    gap: 24px;
+}
+.login {
+    color: white;
+}
+.phone {
+    color: white;
+}
+.start {
+    height: 52px;
+    width: 141px;
+    background-color: #198C36;
+    color: white;
+    border: none;
+    border-radius: 25px;
 }
