@@ -1,5 +1,5 @@
 body {
-    margin left: ;
+    margin-left: 100px;
     display: flex;
     justify-content: center;
 }
@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .contener {
@@ -21,6 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding: 20px;
 }
 .actions{
     display: flex;
@@ -43,3 +45,18 @@ header {
     border: none;
     border-radius: 25px;
 }
+.heroTitle
+{height: 196px;
+left: 0%;
+right: 20.47%;
+top: 0px;
+font-family: 'Recoleta';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 65px;
+color: #FBFAF7;}
+.heroImg {
+width: 580px;
+}
+
